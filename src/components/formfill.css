@@ -1,0 +1,113 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+
+}
+#error{
+    color:red;
+    font-size: small;
+}
+.topview-form{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+#empty_error{
+    display:flex;
+    color:red;
+    justify-content: center;
+}
+.body-form{
+    display: flex;
+   
+    padding-left:20px;
+    height:60vh;
+    
+}
+
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+    margin-left:20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    width:80%;
+}
+
+.input input{
+    outline:none;
+    border:1px solid #e1e1e1;
+    padding:5px;
+    border-radius:5px;
+}
+.input input:focus{
+    border:1px solid #90089c;
+}
+
+.ph-input{
+    display: flex;
+    flex-direction: column;
+    padding-left:20px;
+}
+.PhoneInput{
+    display:flex;
+    
+}
+.PhoneInputCountry{
+    display:flex;
+    padding:5px;
+    
+}
+.PhoneInputCountrySelect{
+    display:flex;
+    height:30px;
+    width:100px;
+    border:1px solid #e1e1e1;
+    border-radius:5px;
+}
+.PhoneInputCountryIcon{
+    display:flex;
+    flex:5;
+    height:30px;
+    margin-left:5px;
+    margin-right:5px;
+    width:30px;
+    
+}
+
+.PhoneInputInput{
+    border:1px solid #e1e1e1;
+    border-radius:5px;
+}
+
+
+.questions-form{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+
+}
+
+.submit{
+    display: flex;
+    height:30px;
+    width:70px;
+    background-color: #90089c;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    flex:1;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
